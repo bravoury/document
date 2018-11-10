@@ -24,10 +24,10 @@
         "extra": {
         "laravel": {
             "providers": [
-                "Antillestores\\Blog\\Providers\\BlogServiceProvider"
+                "Antillestores\\Document\\Providers\\BlogServiceProvider"
             ],
             "aliases": {
-                "BlogAntillestores"       : "Antillestores\\Blog\\Facades\\Blog"
+                "AntillestoresDocument"       : "Antillestores\\Document\\Facades\\Document"
             }
         }
 },
