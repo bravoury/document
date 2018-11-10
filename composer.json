@@ -24,10 +24,10 @@
         "extra": {
         "laravel": {
             "providers": [
-                "Antillestores\\Document\\Providers\\DocumentServiceProvider"
+                "Litecms\\Document\\Providers\\DocumentServiceProvider"
             ],
             "aliases": {
-                "AntillestoresDocument"       : "Antillestores\\Document\\Facades\\Document"
+                "AntillestoresDocument"       : "Litecms\\Document\\Facades\\Document"
             }
         }
 },
