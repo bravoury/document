@@ -24,7 +24,7 @@
         "extra": {
         "laravel": {
             "providers": [
-                "Antillestores\\Document\\Providers\\BlogServiceProvider"
+                "Antillestores\\Document\\Providers\\DocumentServiceProvider"
             ],
             "aliases": {
                 "AntillestoresDocument"       : "Antillestores\\Document\\Facades\\Document"
