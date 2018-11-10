@@ -3,6 +3,7 @@
     "description": "Document package for litecms.",
     "keywords": ["lavalite", "Document"],
     "license": "MIT",
+    "type": "lavalite-package",
     "authors": [
         {
             "name": "Lavalite",
