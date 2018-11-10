@@ -17,8 +17,18 @@
             "database/seeds"
         ],
         "psr-4": {
-            "Litecms\\Document\\": "src"
+            "Antillestores\\Document\\": "src"
         }
     },
+        "extra": {
+        "laravel": {
+            "providers": [
+                "Antillestores\\Blog\\Providers\\BlogServiceProvider"
+            ],
+            "aliases": {
+                "BlogAntillestores"       : "Antillestores\\Blog\\Facades\\Blog"
+            }
+        }
+},
     "minimum-stability": "dev"
 }
