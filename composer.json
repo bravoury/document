@@ -18,16 +18,16 @@
             "database/seeds"
         ],
         "psr-4": {
-            "Litecms\\Document\\": "src"
+            "Antillestores\\Document\\": "src"
         }
     },
         "extra": {
         "laravel": {
             "providers": [
-                "Litecms\\Document\\Providers\\DocumentServiceProvider"
+                "Antillestores\\Document\\Providers\\DocumentServiceProvider"
             ],
             "aliases": {
-                "AntillestoresDocument"       : "Litecms\\Document\\Facades\\Document"
+                "AntillestoresDocument"       : "Antillestores\\Document\\Facades\\Document"
             }
         }
 },
